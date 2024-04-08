@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="ke.ico">
+    <link rel="stylesheet" href="we.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+<body>
+<div class="cared">
+
+    <div class="search">
+        <input type="text" placeholder="enter city name" id="search" spellcheck="false">
+        <button><img src="search.png" alt=""></button>
+    </div>
+
+
+    <div class="error">
+        <p>Invalid city name</p>
+    </div>
+
+    <div class="weather">
+        <img src="rain.png" alt="" id="weather-icon">
+        <h1 id="temp">22°c</h1>
+        <h2 id="city">New York</h2>
+        <div class="details">
+            <div class="col">
+                <img src="humidity.png" alt="">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="wind.png" alt="">
+                <div>
+                    <p class="wind">15km/h</p>
+                    <p>wind speed</p>   
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="we.js"></script>
+</body>
+</html>
